@@ -1,3 +1,4 @@
+
 export const Home = () => {
   return (
     <div className="w-full h-[100svh] flex flex-col items-center justify-center gap-20 overflow-hidden ">
