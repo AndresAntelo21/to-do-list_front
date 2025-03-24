@@ -1,18 +1,13 @@
 
 export const Home = () => {
   return (
-    <div className="w-full h-[100svh] flex flex-col items-center justify-center gap-20 overflow-hidden ">
-      <div className="relative">
+    <div className="relative h-[100svh] w-full overflow-hidden">
+      <div className="absolute -top-20 -left-0 w-96 h-[668px] bg-primary rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-50 -right-30 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
+      <div className="relative flex flex-col items-center justify-center h-full gap-2">
+        <img src="/logo/personal-logo.svg" alt="Logo Andres Antelo Figueroa" />
+        <h1 className="font-poppins font-bold text-5xl">TO-DO LIST</h1>
       </div>
-        <h1 className="text-4xl font-bold tracking-widest uppercase">To-Do List</h1>
-        <div className="text-center px-4 font-poppins">
-          <p className="text-base">Stay organized and boost your productivity with our simple and intuitive <strong>To-Do List</strong></p>
-        </div>
-        <a 
-        href="" 
-        className=" inline-block bg-blue-900 w-60 p-4 rounded-2xl text-center font-poppins font-bold tracking-widest shadow-[0_0_40px_rgba(255,255,255,0.4)]">
-          START
-        </a>
     </div>
   );
 };

@@ -14,11 +14,17 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --color-primary: hsl(225 67% 33%);
+  
+  
 }
 
 @theme inline {
   /* Custom */
   --font-poppins: "Poppins", sans-serif;
+
 }
 
 @layer utilities {
@@ -32,6 +38,12 @@
   }
   .animate-fadeIn {
     animation: fadeIn 0.8s ease-in-out forwards;
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .bg-primary {
+    background-color: var(--color-primary);
   }
 }
 
