@@ -17,6 +17,7 @@
 
 
   --color-primary: hsl(225 67% 33%);
+  --color-secondary: hsl(214 100% 37%);
   
   
 }
@@ -44,6 +45,12 @@
   }
   .bg-primary {
     background-color: var(--color-primary);
+  }
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  .bg-secondary {
+    background-color: var(--color-secondary);
   }
 }
 

@@ -1,12 +1,19 @@
-
 export const Home = () => {
   return (
-    <div className="relative h-[100svh] w-full overflow-hidden">
-      <div className="absolute -top-20 -left-0 w-96 h-[668px] bg-primary rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-50 -right-30 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
-      <div className="relative flex flex-col items-center justify-center h-full gap-2">
+    <div className=" relative flex flex-col items-center justify-center h-[100svh] overflow-hidden">
+      <div className="bg-primary w-96 h-[522px] rounded-full blur-3xl absolute top-10 -left-40 -z-10"></div>
+      <div className="bg-primary w-96 h-96 rounded-full blur-3xl absolute -bottom-30 -right-40 -z-10"></div>
+      <div className="flex items-center flex-col">
         <img src="/logo/personal-logo.svg" alt="Logo Andres Antelo Figueroa" />
-        <h1 className="font-poppins font-bold text-5xl">TO-DO LIST</h1>
+        <h1 className="font-poppins text-5xl text-center font-bold">TO-DO LIST</h1>
+      </div>
+      <div className="w-80 pt-40">
+        <p className="font-poppins text-center text-lg">Stay organized and boost your productivity with our simple and intuitive <strong>To-Do List</strong></p>
+      </div>
+      <div className="pt-30">
+        <a href="" className="bg-secondary w-70 h-16 rounded-2xl flex items-center justify-center shadow-[0_0_40px_rgba(255,255,255,0.4)]" >
+          <span className="font-poppins text-xl font-bold tracking-[7px] text-white">START</span>
+        </a>
       </div>
     </div>
   );
