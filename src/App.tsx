@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "@/components/home";
-
+import { Welcome } from "@/components/welcome";
+import { Login } from "@/components/login";
 export const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Welcome />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );
