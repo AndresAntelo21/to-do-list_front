@@ -42,11 +42,11 @@ export const Welcome = () => {
         {showNewContainer && (
           <div className="w-80 flex items-center pt-33 gap-4 flex-col">
             <div className="flex w-full p-4 rounded-2xl bg-white items-center gap-4 justify-center">
-              <img src="/icons/google.svg" alt="logo de google" className="size-7" />
+              <img src="/icons/google.svg" alt="logo de google" className="size-8" />
               <span className="text-base text-gray-900 font-medium">Continue with Google</span>
             </div>
             <div className="flex w-full p-4 rounded-2xl bg-gray-900 items-center gap-4 justify-center">
-              <img src="/icons/github.svg" alt="logo de github" className="size-7" />
+              <img src="/icons/github.svg" alt="logo de github" className="size-8" />
               <span className="text-base text-white font-medium">Continue with Github</span>
             </div>
           </div>
