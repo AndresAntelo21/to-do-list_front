@@ -39,7 +39,7 @@ export const Welcome = () => {
             </div>
           </div>
         )}
-        {showNewContainer && (
+        {/* {showNewContainer && (
           <div className="w-80 flex items-center pt-33 gap-4 flex-col">
             <div className="flex w-full p-4 rounded-2xl bg-white items-center gap-4 justify-center">
               <img src="/icons/google.svg" alt="logo de google" className="size-8" />
@@ -50,7 +50,7 @@ export const Welcome = () => {
               <span className="text-base text-white font-medium">Continue with Github</span>
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
