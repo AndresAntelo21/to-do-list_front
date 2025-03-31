@@ -26,6 +26,15 @@ export const InProgressCarousel = () => {
             <SwiperSlide>
                 <InProgressCard />
             </SwiperSlide>
+            <SwiperSlide>
+                <InProgressCard />
+            </SwiperSlide>
+            <SwiperSlide>
+                <InProgressCard />
+            </SwiperSlide>
+            <SwiperSlide>
+                <InProgressCard />
+            </SwiperSlide>
         </Swiper>
     );
 };
