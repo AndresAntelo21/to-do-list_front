@@ -8,7 +8,7 @@ export const ProgressDay = () => {
                 <Button className="bg-blue-500 w-40"><span className="text-xl font-poppins">View task</span></Button>
             </div>
             <div className="">
-                <img src="/notification/percentage.svg" alt="QUITAR ESTA IMAGEN" className="size-60" />
+                {/* <img src="/notification/percentage.svg" alt="QUITAR ESTA IMAGEN" className="size-60" /> */}
             </div>
         </div>
     )
