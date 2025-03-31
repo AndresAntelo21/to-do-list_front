@@ -2,7 +2,7 @@ import { FaPlus } from "react-icons/fa6";
 
 export const ActionBar = () => {
     return (
-        <nav className="w-full h-20 bg-primary/50 border-2 border-blue-800 fixed bottom-5 rounded-full flex items-center px-10 backdrop-blur-sm">
+        <nav className="w-full h-20 bg-primary/50 border-2 border-blue-800 fixed bottom-5 rounded-full flex items-center px-10 backdrop-blur-sm z-9">
             <div className="flex w-full">
                 <div className="w-full flex gap-10">
                     <img src="/action-bar-icons/home.svg" alt="" />
