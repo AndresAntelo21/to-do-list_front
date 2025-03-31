@@ -1,10 +1,5 @@
-import { InProgressCard } from "./in-progress-card";
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-} from "@/components/ui/carousel";
 
+import { InProgressCarousel } from "@/components/home/in-progress/in-progress-carousel";
 export const InProgress = () => {
     return (
         <div className="flex flex-col gap-4">
@@ -15,7 +10,7 @@ export const InProgress = () => {
                     <span className="font-semibold">7</span>
                 </div>
             </div>
-            <InProgressCard />
+            <InProgressCarousel />
         </div >
     );
 };
