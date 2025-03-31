@@ -11,10 +11,6 @@ export const Home = () => {
             <main className="flex flex-col p-4 gap-4 h-auto mb-70">
                 <ProgressDay />
                 <InProgress />
-                <ProgressDay />
-                <ProgressDay />
-                <ProgressDay />
-                <ProgressDay />
             </main>
             <ActionBar />
         </div>
